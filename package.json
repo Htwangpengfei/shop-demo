@@ -1,0 +1,39 @@
+{
+  "name": "shop-cart-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "React18 + antd 商品选购页，响应式，购物车抽屉",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "antd": "^5.21.0",
+    "dayjs": "^1.11.13",
+    "i18next": "^26.5.11",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^17.1.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@babel/preset-env": "^7.25.0",
+    "@babel/preset-react": "^7.25.0",
+    "@eslint/js": "^10.0.1",
+    "babel-loader": "^9.2.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
